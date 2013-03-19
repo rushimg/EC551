@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------
+Release 13.3 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml multi_5b.twx multi_5b.ncd -o multi_5b.twr multi_5b.pcf
+
+Design file:              multi_5b.ncd
+Physical constraint file: multi_5b.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.20 2011-10-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+c_in           |c_out          |    6.766|
+c_in           |sum            |    6.406|
+mk             |c_out          |    6.994|
+mk             |mk_out         |    5.440|
+mk             |sum            |    6.634|
+mk1            |c_out          |    6.450|
+mk1            |sum            |    6.090|
+q0             |c_out          |    6.970|
+q0             |q0_out         |    5.440|
+q0             |sum            |    6.610|
+q1             |c_out          |    6.514|
+q1             |q1_out         |    5.657|
+q1             |sum            |    6.154|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 28 14:40:42 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 214 MB
+
+
+

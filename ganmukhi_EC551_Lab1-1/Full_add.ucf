@@ -1,0 +1,13 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "a" LOC = C4;
+NET "b" LOC = D9;
+NET "c_in" LOC = B8;
+NET "c_out" LOC = U16;
+NET "sum" LOC = V16;
+
+# PlanAhead Generated IO constraints 
+
+NET "a" IOSTANDARD = LVCMOS25;
+NET "c_out" DRIVE = 12;

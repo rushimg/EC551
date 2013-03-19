@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map O.76xd on Fri Sep 28 13:53:52 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "c_out" LOCATE = SITE "U16" LEVEL 1;
+COMP "c_in" LOCATE = SITE "B8" LEVEL 1;
+COMP "sum" LOCATE = SITE "V16" LEVEL 1;
+COMP "a" LOCATE = SITE "C4" LEVEL 1;
+COMP "b" LOCATE = SITE "D9" LEVEL 1;
+SCHEMATIC END;
+
