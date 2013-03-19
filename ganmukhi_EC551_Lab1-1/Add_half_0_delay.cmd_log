@@ -1,7 +1,0 @@
-xst -intstyle ise -ifn "X:/Ec551_Lab1/Add_half_0_delay.xst" -ofn "X:/Ec551_Lab1/Add_half_0_delay.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm add_full.bmm -p xc6slx16-csg324-3 Add_half_0_delay.ngc Add_half_0_delay.ngd  
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Add_half_0_delay.ngc Add_half_0_delay.ngd  
-map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Add_half_0_delay_map.ncd Add_half_0_delay.ngd Add_half_0_delay.pcf 
-par -w -intstyle ise -ol high -mt off Add_half_0_delay_map.ncd Add_half_0_delay.ncd Add_half_0_delay.pcf 
-trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Add_half_0_delay.twx Add_half_0_delay.ncd -o Add_half_0_delay.twr Add_half_0_delay.pcf 
-bitgen -intstyle ise -f Add_half_0_delay.ut Add_half_0_delay.ncd 

@@ -1,8 +1,0 @@
-Release 13.3 Drc O.76xd (nt64)
-Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
-
-Fri Sep 28 13:56:32 2012
-
-drc -z Full_add.ncd Full_add.pcf
-
-DRC detected 0 errors and 0 warnings.
